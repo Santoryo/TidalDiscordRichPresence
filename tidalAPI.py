@@ -1,5 +1,5 @@
 import tidalapi
-from plyer import notification
+#from plyer import notification
 import os
 import sys
 import requests
@@ -21,8 +21,9 @@ def getSession():
         tokens = tokens.split('|')
         session.load_oauth_session(tokens[0], tokens[1], tokens[2], tokens[3])
     except:
+        print('Please authenticate to TIDAL so this app can work correctly.')
         login, future = session.login_oauth()
-        notification.notify(title="Open the URL to log in", description=login.verification_uri_complete, app_name="TIDAL Rich Presence")
+        #notification.notify("Open the URL to log in", login.verification_uri_complete)
 
         if sys.platform=='win32':
             os.startfile(f'https://{login.verification_uri_complete}')
@@ -79,4 +80,3 @@ def getData(song='K/DA - DRUM GO DUM'):
         data = json.loads(data)
 
         return data
-    
