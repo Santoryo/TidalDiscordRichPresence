@@ -7,8 +7,10 @@
 1. Download from [Releases](https://github.com/Santoryo/TidalDiscordRichPresence/releases)
 2. Launch `Tidal Rich Presence.exe`. You will have to login into your TIDAL account. The token is valid for 7 days and it's stored in `token.brel`. Token is used to fetch data about the current song you're playing. Song name is fetched from TIDAL window application `tidallib.py`.
 
-## Dependencies
+## Contribution
 
 If you plan to contribute into this project, TidalDiscordRichPresence uses two libs:
 1. [PyPresence](https://github.com/qwertyquerty/pypresence/)
 2. [TidalAPI](https://pypi.org/project/tidalapi/)
+
+Please don't use my Application ID while forking the project, make your own Application on [Discord Developer Portal](https://discord.com/developers/applications)
