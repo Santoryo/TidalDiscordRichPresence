@@ -5,7 +5,7 @@ import tidalAPI
 import json
 
 
-RPC = Presence(1082306215792623616)
+RPC = Presence(ApplicationIDGoesHere)
 
 def connectRPC():
     RPC.connect()
