@@ -11,6 +11,6 @@
 
 If you plan to contribute into this project, TidalDiscordRichPresence uses two libs:
 1. [PyPresence](https://github.com/qwertyquerty/pypresence/)
-2. [TidalAPI](https://pypi.org/project/tidalapi/)
+2. [TidalAPI](https://github.com/tamland/python-tidal)
 
 Please don't use my Application ID while forking the project, make your own Application on [Discord Developer Portal](https://discord.com/developers/applications)
