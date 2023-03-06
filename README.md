@@ -1,7 +1,7 @@
 # TidalRichPresence
  TIDAL Rich Presence for Discord without Last.FM
-
-<img src="https://i.imgur.com/5hRCJEk.png" width=30%>
+ 
+<img src="https://i.imgur.com/5hRCJEk.png" width=30% style="float: left">>
 <img src="https://i.imgur.com/0lFEe9S.png" width=30% style="float: left">
 
 ## Setup
